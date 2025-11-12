@@ -6,9 +6,11 @@ import Dashboard from './Pages/Dashboard.jsx';
 import Project from './Pages/Project.jsx';
 import Signin from './Pages/Signin';
 import Signup from './Pages/Signup';
+import Header from './Components/Header.jsx';
 const App = () => {
   return (
     <BrowerRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
